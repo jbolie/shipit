@@ -5,7 +5,6 @@ jdk:
 services:
   - mysql
   - redis
-cache: true
 notifications:
    email:
        recipients:
