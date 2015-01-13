@@ -7,7 +7,6 @@ jdk:
 services:
   - mysql
   - redis
-build_image: shippableimages/ubuntu1404_java 
 cache: true
 notifications:
    email:
