@@ -1,11 +1,14 @@
 language: java
-
 jdk:
    - openjdk7
    - oraclejdk7
    - openjdk6
    - oraclejdk8
-
+services:
+  - mysql
+  - redis
+build_image: shippableimages/ubuntu1404_java 
+cache: true
 notifications:
    email:
        recipients:
